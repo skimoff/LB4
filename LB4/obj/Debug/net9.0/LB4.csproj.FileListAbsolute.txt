@@ -1,0 +1,14 @@
+D:\LB4\LB4\LB4\bin\Debug\net9.0\LB4.exe
+D:\LB4\LB4\LB4\bin\Debug\net9.0\LB4.deps.json
+D:\LB4\LB4\LB4\bin\Debug\net9.0\LB4.runtimeconfig.json
+D:\LB4\LB4\LB4\bin\Debug\net9.0\LB4.dll
+D:\LB4\LB4\LB4\bin\Debug\net9.0\LB4.pdb
+D:\LB4\LB4\LB4\obj\Debug\net9.0\LB4.GeneratedMSBuildEditorConfig.editorconfig
+D:\LB4\LB4\LB4\obj\Debug\net9.0\LB4.AssemblyInfoInputs.cache
+D:\LB4\LB4\LB4\obj\Debug\net9.0\LB4.AssemblyInfo.cs
+D:\LB4\LB4\LB4\obj\Debug\net9.0\LB4.csproj.CoreCompileInputs.cache
+D:\LB4\LB4\LB4\obj\Debug\net9.0\LB4.dll
+D:\LB4\LB4\LB4\obj\Debug\net9.0\refint\LB4.dll
+D:\LB4\LB4\LB4\obj\Debug\net9.0\LB4.pdb
+D:\LB4\LB4\LB4\obj\Debug\net9.0\LB4.genruntimeconfig.cache
+D:\LB4\LB4\LB4\obj\Debug\net9.0\ref\LB4.dll

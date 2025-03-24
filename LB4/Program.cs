@@ -38,24 +38,39 @@ class Program
         }
     }
 
+    static void fillArray(string[] arr, int n)
+    {
+        Console.WriteLine("enter number 0/1");
+        string pattern = "^[01]+$";
+        bool check;
+        for (int i = 0; i < n; i++)
+        {
+            do
+            {
+                arr[i] = Console.ReadLine();
+                check = Regex.IsMatch(arr[i], pattern);
+                if (!check)
+                    Console.WriteLine("enter number only 0/1");
+            } while (!check);
+        }
+    }
+
     static void task2()
     {
         StreamReader input = new StreamReader("in.txt");
         StreamWriter output = new StreamWriter("out.txt");
-        
+
         Console.WriteLine("enter how str(<=10)");
         int n = Convert.ToInt32(Console.ReadLine());
         if (n > 10) n = 10;
-        
+
         string[] numbers = new String[n];
-        
+
         Console.WriteLine("text in keyboard(1) or file(2)");
         int pr = Convert.ToInt32(Console.ReadLine());
         if (pr == 1)
         {
-            Console.WriteLine("enter number 0/1");
-            for (int i = 0; i < n; i++)
-                numbers[i] = Console.ReadLine();
+            fillArray(numbers, n);
         }
         else
         {
